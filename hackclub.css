@@ -301,7 +301,6 @@ input[type="button"] {
   border-radius: 4px;
   box-sizing: border-box;
   cursor: pointer;
-  color: var(--hc-link-tx);
 }
 
 a button[disabled],
@@ -311,8 +310,6 @@ input[type="reset"][disabled],
 input[type="button"][disabled] {
   cursor: default;
   opacity: 0.5;
-
-  /* Set the [X] cursor while hovering a disabled link */
   cursor: not-allowed;
 }
 
@@ -327,11 +324,6 @@ input[type="reset"]:enabled:hover,
 input[type="button"]:focus,
 input[type="button"]:enabled:hover {
   background: var(--hc-link-2);
-}
-
-a > button {
-  /* Linked buttons should not have link-colored text */
-  color: var(--hc-tx-1) !important;
 }
 
 a img {
