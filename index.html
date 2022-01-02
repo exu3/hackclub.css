@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./hackclub.css" />
+    <title>hackclub.css</title>
+    <meta
+      name="description"
+      content="hackclub.css is a drop-in collection of CSS styles for Hack Club themed websites."
+    />
+  </head>
+  <body>
+    <div id="top" class="page">
+      <header>
+        <h1>hackclub.css</h1>
+        <p>
+          hackclub.css is a classless CSS utility which applies the Hack Club
+          theme styles to all HTML elements. It provides 2 themes for light and
+          dark modes and is automatically switched based on the system mode.
+        </p>
+        <a href="https://github.com" target="_blank" rel="noreferrer"
+          ><button type="button">GitHub</button></a
+        >
+      </header>
+      <section id="installation">
+        <h1>How to use</h1>
+      </section>
+      <nav role="navigation">
+        <h1>What's on this page?</h1>
+        <ul>
+          <li>
+            <a href="#text">Text</a>:&nbsp;
+            <a href="#text__headings">Headings</a>·
+            <a href="#text__paragraphs">Paragraphs</a> ·
+            <a href="#text__blockquotes">Blockquotes</a> ·
+            <a href="#text__lists">Lists</a> ·
+            <a href="#text__hr">Horizontal rules</a> ·
+            <a href="#text__tables">Tables</a> ·
+            <a href="#text__code">Code</a> ·
+            <a href="#text__inline">Inline elements</a>
+          </li>
+          <li>
+            <a href="#embedded">Embedded content</a>:&nbsp;
+            <a href="#embedded__images">Images</a> ·
+            <a href="#embedded__audio">Audio</a> ·
+            <a href="#embedded__video">Video</a>
+          </li>
+          <li>
+            <a href="#forms">Forms</a>
+          </li>
+        </ul>
+      </nav>
+      <main role="main">
+        <section id="text">
+          <h1>Text</h1>
+          <article id="text__headings">
+            <h1>Headings</h1>
+            <div>
+              <h1>Heading 1 (h1)</h1>
+              <h2>Heading 2 (h2)</h2>
+              <h3>Heading 3 (h3)</h3>
+              <h4>Heading 4 (h4)</h4>
+              <h5>Heading 5 (h5)</h5>
+              <h6>Heading 6 (h6)</h6>
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__paragraphs">
+            <h1>Paragraphs</h1>
+            <div>
+              <p>
+                The Hacker Pasture is home to the Grazers, a group of pacifists
+                and sophists protected by the great Prophet Orpheus. Among the
+                rest, the Cow and the Goat are looked up to as dispensaries of
+                wisdom, though they have not advised in recent.
+              </p>
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__blockquotes">
+            <h1>Blockquotes</h1>
+            <div>
+              <blockquote>
+                <p>
+                  The States of Hugo have the advantage of more advanced
+                  technology and infrastructure. The highest ranking in their
+                  military hierarchy is Grand Postmaster. Making war upon them
+                  is a mistake, as they are experts at delivering swift
+                  retaliation.
+                </p>
+                <p>
+                  The Ducktator and His Flock are flexible and nomadic. Often
+                  will they occupy large bodies of water without warning. There
+                  exists between them a flourishing economy, though their
+                  currency to the outside world has little to no value, a lie
+                  propagated by His Supremacy. The Flock's military sector is in
+                  divisions of Mallards, the elite agents, Divers, who handle
+                  reconnaissance, and the Dabblers, a main force. Self sacrifice
+                  to take down aircraft is common.
+                </p>
+                <cite>Said the Hack Club Slack.</cite>
+              </blockquote>
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__lists">
+            <h1>Lists</h1>
+            <div>
+              <h3>Definition list</h3>
+              <dl>
+                <dt>Definition List Title</dt>
+                <dd>This is a definition list division.</dd>
+              </dl>
+              <h3>Ordered List</h3>
+              <ol>
+                <li>Do the thing</li>
+                <li>
+                  The other thing
+                  <ol>
+                    <li>Then this nested thing</li>
+                    <li>Another nested thing</li>
+                  </ol>
+                </li>
+                
+              </ol>
+              <h3>Unordered List</h3>
+              <ul>
+                <li>When the cows are  mooing</li>
+                <li>
+                  When the cows are mooing
+                  <ul>
+                    <li>The rats are clapping</li>
+                    <li>The potatoes are screaming</li>
+                  </ul>
+                </li>
+                
+              </ul>
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__hr">
+            <h1>Here's a horizontal rule. (hr)</h1>
+            <div>
+              <hr />
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__tables">
+            <h1>Tables</h1>
+            <table>
+              <caption>
+                Table Caption
+              </caption>
+              <thead>
+                <tr>
+                  <th>Table Heading 1</th>
+                  <th>Table Heading 2</th>
+                  <th>Table Heading 3</th>
+                  <th>Table Heading 4</th>
+                  <th>Table Heading 5</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Table Footer 1</th>
+                  <th>Table Footer 2</th>
+                  <th>Table Footer 3</th>
+                  <th>Table Footer 4</th>
+                  <th>Table Footer 5</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+              </tbody>
+            </table>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__code">
+            <h1>Code</h1>
+            <div>
+              <p><strong>Keyboard input (kbd):</strong> <kbd>Cmd</kbd></p>
+              <p>
+                <strong>Inline code (code):</strong>
+                <code>&lt;div&gt;code&lt;/div&gt;</code>
+              </p>
+              <p>
+                <strong>Sample output (samp):</strong>
+                <samp>This is sample output from a computer program.</samp>
+              </p>
+              <h2>Pre-formatted text (pre)</h2>
+              <pre>
+  P R E F O R M A T T E D T E X T
+  ! " # $ % &amp; ' ( ) * + , - . /
+  0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+  @ A B C D E F G H I J K L M N O
+  P Q R S T U V W X Y Z [ \ ] ^ _
+  ` a b c d e f g h i j k l m n o
+  p q r s t u v w x y z { | } ~ </pre
+              >
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="text__inline">
+            <h1>Inline elements</h1>
+            <div>
+              <a href="#!">This is a text link</a>.<br />
+              <strong>This is bold. Gadzooks!</strong><br />
+              <em>This sentence is italicized.</em><br />
+              The following word is underlined <u>eebydeeby</u>.<br />
+              <s>This text has a strikethrough</s>.<br />
+              The following word has a superscript: Wahoo<sup>TM</sup>.<br />
+              Subscripts also work: H<sub>2</sub>O.<br />
+              <small>Small text.</small><br />
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+        </section>
+
+        <section id="embedded">
+          <h1>Embedded content</h1>
+          <article id="embedded__images">
+            <h2>Images</h2>
+            <div>
+              <img
+                src="https://github.com/hackclub.png"
+                alt="Hack Club on GitHub."
+              />
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="embedded__audio">
+            <h2>Audio</h2>
+            <div>
+              <audio controls>
+                <source
+                  src="https://cloud-73jat2wda-hack-club-bot.vercel.app/0getdinoed.mp3"
+                />
+              </audio>
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+          <article id="embedded__video">
+            <h2>Video</h2>
+            <div>
+              <video controls>
+                <source
+                  src="https://cloud-az7olqpvi-hack-club-bot.vercel.app/0report-form.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <footer>
+              <p><a href="#top">[Top]</a></p>
+            </footer>
+          </article>
+        </section>
+        <section id="forms">
+          <h1>Form elements</h1>
+          <form>
+            <fieldset id="forms__input">
+              <legend>Input fields</legend>
+              <p>
+                <label for="input__text">Text Input</label>
+                <input id="input__text" type="text" placeholder="Text Input" />
+              </p>
+              <p>
+                <label for="input__password">Password</label>
+                <input
+                  id="input__password"
+                  type="password"
+                  placeholder="Type your Password"
+                />
+              </p>
+              <p>
+                <label for="select">Select</label>
+                <select id="select">
+                  <optgroup label="Option Group">
+                    <option>Hack.</option>
+                    <option>Hack?</option>
+                    <option>Hack!</option>
+                  </optgroup>
+                </select>
+              </p>
+              <p>
+                <label for="checkbox1"
+                  ><input
+                    id="checkbox1"
+                    name="checkbox"
+                    type="checkbox"
+                    checked="checked"
+                  />
+                  Check this box if you agree.</label
+                >
+              </p>
+              <p>
+                <label for="radio1"
+                  ><input
+                    id="radio1"
+                    name="radio"
+                    type="radio"
+                    class="radio"
+                    checked="checked"
+                  />
+                  Tabs</label
+                ><br />
+                <label for="radio2"
+                  ><input
+                    id="radio2"
+                    name="radio"
+                    type="radio"
+                    class="radio"
+                    checked="checked"
+                  />
+                  Spaces</label
+                >
+                <p>
+                  <label for="in">How much???</label>
+                  <input type="number" id="in" min="0" max="10" value="5" />
+                </p>
+              </p>
+              <p>
+                <label for="textarea">How goes it?</label><br />
+                <textarea
+                  id="textarea"
+                  rows="8"
+                  cols="48"
+                  placeholder="Enter your message here"
+                ></textarea>
+              </p>
+              <p>
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Disabled Button" disabled />
+
+
+              </p>
+            </fieldset>
+            <p><a href="#top">[Top]</a></p>  
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>
+          Edit this page on
+          <a href="https://github.com/hackclub/hackclub.css">GitHub</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
