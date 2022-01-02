@@ -296,7 +296,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background: var(--hc-link-1);
-  color: var(--hc-link-tx);
+  color: whitesmoke;
   border: 0;
   border-radius: 4px;
   box-sizing: border-box;
