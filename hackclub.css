@@ -329,6 +329,11 @@ input[type="button"]:enabled:hover {
   background: var(--hc-link-2);
 }
 
+a > button {
+  /* Linked buttons should not have link-colored text */
+  color: var(--hc-tx-1) !important;
+}
+
 a img {
   margin-bottom: 0px;
 }
@@ -512,6 +517,7 @@ input {
   box-sizing: border-box;
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
