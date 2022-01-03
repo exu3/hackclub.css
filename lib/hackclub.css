@@ -231,6 +231,7 @@ h6 {
 
 a {
   color: var(--hc-link-1);
+  text-underline-offset: 6px;
 }
 
 a:hover {
