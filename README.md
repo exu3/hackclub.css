@@ -11,7 +11,7 @@ Insert the following into the `<head>` of your HTML file.
 ### CDN
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/eilla1/hackclub.css@main/lib/hackclub.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/eilla1/hackclub.css@main/src/hackclub.min.css">
 ```
 
 ### NPM

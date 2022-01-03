@@ -8,7 +8,7 @@ $$("*").forEach((el) => (el.style = ""));
 
 const linkElm = createElement("link", {
   rel: "stylesheet",
-  href: "https://cdn.jsdelivr.net/gh/eilla1/hackclub.css@main/lib/hackclub.min.css",
+  href: "https://cdn.jsdelivr.net/gh/eilla1/hackclub.css@main/src/hackclub.min.css",
 });
 
 // Add hackclub.css and responsive viewport (if necessary)
