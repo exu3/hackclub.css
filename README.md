@@ -1,8 +1,11 @@
+> Note: the official Hack Club theme packaged as plain CSS is [hackclub/css](https://github.com/hackclub/css).
+> This one still works. It's just a little different.
+
 # hackclub.css
 
-hackclub.css is a classless CSS utility which applies the Hack Club theme styles to a given HTML page. Color mode (light or dark) is automatically determined based on the system mode.
+hackclub.css is a classless CSS utility which applies the Hack Club theme styles to a given HTML page. 🔆 / 🌖 Color mode (light or dark) is automatically determined based on the system mode.
 
-[Demo](https://css.hackclub.dev)
+[Demo site.](https://dot-css.hackclub.dev)
 
 ## Usage
 
